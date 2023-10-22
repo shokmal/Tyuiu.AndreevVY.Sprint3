@@ -11,7 +11,7 @@ namespace Tyuiu.AndreevVY.Sprint3.Task0.V16.Lib
     {
         public double GetMultiplySeries(int value, int startValue, int stopValue)
         {
-            double sumSeries = 0;
+            double sumSeries = 1;
             int i;
             for (i = startValue; i <= stopValue; i++)
             {

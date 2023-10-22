@@ -11,10 +11,10 @@ namespace Tyuiu.AndreevVY.Sprint3.Task1.V2.Lib
     {
         public double GetSumSeries(int startValue, int stopValue)
         {
-            double multSeries = 1;
+            double multSeries = 0;
             while (startValue <= stopValue)
             {
-                multSeries = multSeries * (Math.Sin(startValue) * 1 / 2);
+                multSeries = multSeries + (Math.Sin(startValue) * 1 / 2);
                 startValue++;
             }
             return Math.Round(multSeries, 3);
